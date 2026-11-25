@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a3977"/>
+      <stop offset="100%" stop-color="#0e6eb8"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#f3e08c"/>
+    </linearGradient>
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#008080"/>
+      <stop offset="100%" stop-color="#20b2aa"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="2" dy="6" stdDeviation="6" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background Circle / Shield Base -->
+  <rect width="512" height="512" rx="100" fill="#ffffff"/>
+  <circle cx="256" cy="256" r="236" fill="url(#blueGrad)" filter="url(#shadow)"/>
+  <circle cx="256" cy="256" r="224" fill="none" stroke="url(#goldGrad)" stroke-width="4" stroke-dasharray="8 4"/>
+  <circle cx="256" cy="256" r="214" fill="#ffffff"/>
+
+  <!-- Medical Cross / Shield Accent -->
+  <path d="M 232 90 L 280 90 L 280 135 L 325 135 L 325 183 L 280 183 L 280 228 L 232 228 L 232 183 L 187 183 L 187 135 L 232 135 Z" fill="url(#tealGrad)" opacity="0.15"/>
+
+  <!-- Endocrine Thyroid Motif & Caduceus Emblem -->
+  <!-- Left Wing / Lobe of Thyroid -->
+  <path d="M 256 165 C 220 120, 160 135, 150 185 C 142 225, 175 260, 225 255 C 245 253, 252 245, 256 238 Z" fill="url(#blueGrad)" opacity="0.9"/>
+  <!-- Right Wing / Lobe of Thyroid -->
+  <path d="M 256 165 C 292 120, 352 135, 362 185 C 370 225, 337 260, 287 255 C 267 253, 260 245, 256 238 Z" fill="url(#tealGrad)" opacity="0.9"/>
+  <!-- Central Isthmus and Healing Hands -->
+  <circle cx="256" cy="195" r="14" fill="url(#goldGrad)"/>
+  
+  <!-- Caduceus / Staff of Asclepius & Metabolism Energy -->
+  <path d="M 256 130 L 256 270" stroke="#0a3977" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 235 155 Q 275 170, 256 195 Q 235 220, 275 235" fill="none" stroke="url(#goldGrad)" stroke-width="4.5" stroke-linecap="round"/>
+
+  <!-- Hospital Typography -->
+  <!-- SPS in Bold Medical Navy -->
+  <text x="256" y="328" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="900" fill="#0a3977" text-anchor="middle" letter-spacing="4">SPS</text>
+  
+  <!-- ENDOCRINE CENTER -->
+  <text x="256" y="365" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="800" fill="#d4af37" text-anchor="middle" letter-spacing="2.5">ENDOCRINE CENTER</text>
+  
+  <!-- Location & Specialty Ribbon -->
+  <rect x="110" y="388" width="292" height="2" fill="#e2e8f0"/>
+  <text x="256" y="412" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#475569" text-anchor="middle" letter-spacing="2">NARASARAOPET • 522601</text>
+  <text x="256" y="432" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#64748b" text-anchor="middle" letter-spacing="1">OPD • LAB • PHARMACY • USG</text>
+
+  <!-- Golden Stars of Quality -->
+  <polygon points="256,105 259,113 268,113 261,118 263,126 256,121 249,126 251,118 244,113 253,113" fill="#d4af37"/>
+</svg>

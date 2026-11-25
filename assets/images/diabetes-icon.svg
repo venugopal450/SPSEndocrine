@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gradDia" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a3977"/>
+      <stop offset="100%" stop-color="#008080"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="24" fill="#e8f0fe"/>
+  <!-- Blood drop with pulse and glucose monitor dial -->
+  <path d="M60 22 C60 22 36 54 36 74 C36 87 47 98 60 98 C73 98 84 87 84 74 C84 54 60 22 60 22 Z" fill="url(#gradDia)" opacity="0.95"/>
+  <!-- ECG / Pulse Line inside -->
+  <path d="M48 76 L54 76 L57 68 L61 84 L65 72 L68 78 L72 78" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Orbiting Glucose Ring -->
+  <circle cx="60" cy="74" r="28" fill="none" stroke="#d4af37" stroke-width="2.5" stroke-dasharray="6 4"/>
+</svg>

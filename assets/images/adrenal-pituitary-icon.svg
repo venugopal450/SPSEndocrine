@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gradAdr" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e7490"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="24" fill="#ecfeff"/>
+  <!-- Master endocrine gland / brain pituitary with hormonal signals -->
+  <circle cx="60" cy="52" r="26" fill="none" stroke="url(#gradAdr)" stroke-width="4.5"/>
+  <circle cx="54" cy="52" r="8" fill="#d4af37"/>
+  <circle cx="68" cy="52" r="6" fill="#0e7490"/>
+  <!-- Signal wave pulses -->
+  <path d="M44 86 Q 60 76, 76 86" fill="none" stroke="#0e7490" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M36 94 Q 60 84, 84 94" fill="none" stroke="#d4af37" stroke-width="3" stroke-linecap="round"/>
+</svg>

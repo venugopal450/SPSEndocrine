@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gradThy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a3977"/>
+      <stop offset="100%" stop-color="#008080"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="24" fill="#eff6ff"/>
+  <!-- Butterfly Thyroid Gland -->
+  <path d="M 60 48 C 50 32, 28 36, 24 56 C 20 74, 38 88, 54 84 C 58 83, 59 78, 60 76 C 61 78, 62 83, 66 84 C 82 88, 100 74, 96 56 C 92 36, 70 32, 60 48 Z" fill="url(#gradThy)" opacity="0.9"/>
+  <!-- Trachea rings in background -->
+  <line x1="60" y1="26" x2="60" y2="94" stroke="#d4af37" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="52" y1="34" x2="68" y2="34" stroke="#d4af37" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="52" y1="88" x2="68" y2="88" stroke="#d4af37" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="60" cy="62" r="5" fill="#ffffff"/>
+</svg>
